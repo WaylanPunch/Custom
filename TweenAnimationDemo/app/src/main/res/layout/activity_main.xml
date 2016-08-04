@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.way.tweenanimationdemo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rotate"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnRotateFillAfter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FillAfter"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnRotateFillBefore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FillBefore"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnRotatePivot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pivot"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRotatePivotPercent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PivotPercent"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnRotatePivotPercentP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PivotPercentP"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnRotateRepeatMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RepeatMode"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnAlpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alpha"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTranslate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Translate"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnScale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scale"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnTranslateAnticipateInterpolator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AnticipateInterpolator"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTranslateBounceInterpolator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BounceInterpolator"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnTranslateAnticipateInterpolatorCustom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AnticipateInterpolatorCustom"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTranslateAnticipateOvershootInterpolator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AnticipateOvershootInterpolator"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/btnTranslateOvershootInterpolator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OvershootInterpolator"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_photo_default" />
+
+    <ImageView
+        android:id="@+id/ivDot"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_dot_default" />
+
+</LinearLayout>
