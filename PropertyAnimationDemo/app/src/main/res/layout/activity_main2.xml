@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnValueAnimator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rotate Animator"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnObjectAnimatorRotation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Object Animator Set"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/ivDot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/mini_black_point" />
+
+</LinearLayout>
