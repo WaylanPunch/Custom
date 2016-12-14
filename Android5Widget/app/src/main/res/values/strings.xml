@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android5Widget</string>
+    <string name="stop">STOP</string>
+    <string name="start">START</string>
+    <string name="tiffany">Tiffany</string>
+    <string name="jessica">Jessica</string>
+    <string name="soo_young">Soo Young</string>
+    <string name="yoo_na">Yoo Na</string>
+</resources>
