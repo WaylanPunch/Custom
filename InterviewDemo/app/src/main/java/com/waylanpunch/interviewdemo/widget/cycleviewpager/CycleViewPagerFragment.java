@@ -172,7 +172,6 @@ public class CycleViewPagerFragment extends Fragment {
 
         @Override
         public void destroyItem(ViewGroup view, int position, Object object) {
-            // TODO Auto-generated method stub
 //			super.destroyItem(container, position, object);
 //			view.removeView(view.getChildAt(position));
 //			view.removeViewAt(position);
@@ -181,7 +180,6 @@ public class CycleViewPagerFragment extends Fragment {
 
         @Override
         public Object instantiateItem(ViewGroup view, int position) {
-            // TODO Auto-generated method stub
             view.addView(images.get(position));
             return images.get(position);
         }

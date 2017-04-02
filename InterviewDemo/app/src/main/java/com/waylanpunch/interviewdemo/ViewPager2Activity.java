@@ -21,22 +21,6 @@ public class ViewPager2Activity extends AppCompatActivity {
         imageIds.add(R.drawable.c);
         imageIds.add(R.drawable.d);
         imageIds.add(R.drawable.e);
-//    //存放图片的id
-//    private int[] imageIds = new int[]{
-//            R.drawable.a,
-//            R.drawable.b,
-//            R.drawable.c,
-//            R.drawable.d,
-//            R.drawable.e
-//    };
-//    //存放图片的标题
-//    private String[] titles = new String[]{
-//            "巩俐不低俗，我就不能低俗",
-//            "扑树又回来啦！再唱经典老歌引万人大合唱",
-//            "揭秘北京电影如何升级",
-//            "乐视网TV版大派送",
-//            "热血屌丝的反杀"
-//    };
         ArrayList<String> titles = new ArrayList<String>();
         titles.add("巩俐不低俗，我就不能低俗");
         titles.add("扑树又回来啦！再唱经典老歌引万人大合唱");
