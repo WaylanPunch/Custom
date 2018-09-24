@@ -1,0 +1,10 @@
+java -jar eurekaserver-0.0.1-SNAPSHOT-8761.jar
+
+java -jar selltickets-0.0.1-SNAPSHOT-8001.jar
+
+java -jar selltickets-0.0.1-SNAPSHOT-8002.jar
+
+java -jar selltickets-0.0.1-SNAPSHOT-8003.jar
+
+java -jar buytickets-0.0.1-SNAPSHOT-8100.jar
+
